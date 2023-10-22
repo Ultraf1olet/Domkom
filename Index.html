@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастер по строительству</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        header {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мастер по строительству</h1>
+    </header>
+    <section>
+        <h2>Контактная информация</h2>
+        <p>Телефон: 123-456-7890</p>
+        <p>Email: example@example.com</p>
+        <h2>Описание услуг</h2>
+        <p>Мы предлагаем широкий спектр строительных услуг, включая ремонт, отделку, строительство домов и многое другое.</p>
+        <h2>Заказать услугу</h2>
+        <form>
+            <label for="name">Ваше имя:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="service">Выберите услугу:</label><br>
+            <select id="service" name="service">
+                <option value="remont">Ремонт</option>
+                <option value="otdelka">Отделка</option>
+                <option value="stroitelstvo">Строительство домов</option>
+            </select><br><br>
+            <label for="message">Дополнительная информация:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Отправить">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Мастер по строительству</p>
+    </footer>
+</body>
+</html>
